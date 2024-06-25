@@ -1,0 +1,68 @@
+{
+   "packages" : [
+      {
+         "email" : "?",
+         "maintainer" : "HPMicro",
+         "platforms" : [
+            {
+               "version" : "0.1.0",
+               "name" : "HPMicro 5300 Series boards",
+               "boards" : [
+               ],
+               "size" : 3523315,
+               "checksum" : "SHA-256:9fa2eb7767ee415138d902bc9c38cd22f8cd00fa7b161aac45a91e6b4886b8c9",
+               "architecture" : "riscv",
+               "toolsDependencies" : [
+                  {
+                     "version" : "1.5.0",
+                     "name" : "hpm_env",
+                     "packager" : "hpmicroduino"
+                  },
+                  {
+                     "version" : "0.3.3",
+                     "name" : "hpm_mfg_tool",
+                     "packager" : "hpmicroduino"
+                  }
+               ],
+               "url" : "http://192.168.20.31/ArduinoHPM5300.zip",
+               "category" : "HPMicro",
+               "archiveFileName" : "ArduinoHPM5300.zip"
+            }
+         ],
+         "tools" : [
+            {
+               "systems" : [
+                  {
+                     "checksum" : "SHA-256:f8d142d49b12c725c460907439cef325fa0d7540d78c7e774e3cf9a5e9d8fca5",
+                     "url" : "http://192.168.20.31/sdk_env1.5.0.zip",
+                     "archiveFileName" : "sdk_env1.5.0.zip",
+                     "host" : "i686-mingw32",
+                     "size" : 293276020
+                  }
+               ],
+               "version" : "1.5.0",
+               "name" : "hpm_env"
+            },
+            {
+               "systems" : [
+                  {
+                     "checksum" : "SHA-256:b3412f047f76eb315aa99b908cbea7c0685d0e2d68172d076d0d2a6b034c8127",
+                     "url" : "http://192.168.20.31/hpm_mfg_v0.3.3.zip",
+                     "archiveFileName" : "hpm_mfg_v0.3.3.zip",
+                     "host" : "i686-mingw32",
+                     "size" : 53898931
+                  }
+               ],
+               "version" : "0.3.3",
+               "name" : "hpm_mfg_tool"
+            }
+         ],
+         "name" : "hpmicroduino",
+         "websiteURL" : "http://www.hpmicro.com/",
+         "help" : {
+            "online" : "http://www.hpmicro.com/"
+         }
+      }
+   ]
+}
+

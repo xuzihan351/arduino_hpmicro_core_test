@@ -1,0 +1,6 @@
+# Arduino core description
+The Arduino core contains the source code files, header files, link scripts, and script files needed to compile the Arduino image, as well as the script files needed to download the program to the development board.
+## Usage
+1. Arduino recognizes that the development board needs to package the directory into a zip file in a certain directory format. The top-level directory is {maintainer}, followed by {version}, and then the corresponding documents in the SOC directory. For example, the following file should exist: hpmicroguideno/1.50/platform.txt.
+2. Write the actual size and sha256sum value of the compressed package into the development board description document (JSON), fill in the corresponding fields, and see [Package Index Specification] for specific filling requirements（ https://arduino.github.io/arduino-cli/0.35/package_index_json-specification ）
+3. Upload the compressed file to the server and fill in the URL address for obtaining the compressed file in the development board description document as required. [Package index specification]（ https://arduino.github.io/arduino-cli/0.35/package_index_json-specification ）

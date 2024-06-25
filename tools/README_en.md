@@ -1,0 +1,6 @@
+# Arduino toolkit instructions
+The Arduino toolkit includes toolchains, OpenOCD, and other tools for compiling programs and downloading steps. Currently, the tools used are from sdk_env.
+## How to use the toolkit
+1. The Arduino recognition toolkit needs to be packaged into a zip file in a certain directory format. For example, in Windows, the root directory of sdk_env is located in the directory 1.5.0/win/after decompression.
+2. Write the actual size and sha256sum value of the compressed package into the development board description document (JSON), fill in the corresponding fields, and see [Package Index Specification] for specific filling requirements（ https://arduino.github.io/arduino-cli/0.35/package_index_json-specification ）
+3. Upload the compressed file to the server and fill in the URL address for obtaining the compressed file in the development board description document as required. [Package index specification]（ https://arduino.github.io/arduino-cli/0.35/package_index_json-specification ）
